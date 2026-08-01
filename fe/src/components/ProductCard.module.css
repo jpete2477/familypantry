@@ -1,0 +1,52 @@
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  text-align: center;
+}
+
+.imageLink {
+  display: block;
+}
+
+.image {
+  width: 100%;
+  max-width: 160px;
+  margin: 0 auto var(--space-sm);
+}
+
+.compact .image {
+  max-width: 120px;
+}
+
+.name {
+  margin: 0;
+}
+
+.name a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.name a:hover {
+  color: var(--color-primary-dark);
+}
+
+.benefit {
+  color: var(--color-text-muted);
+  flex-grow: 1;
+}
+
+.link {
+  color: var(--color-primary-dark);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

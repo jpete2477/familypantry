@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-hidden="true">
+  <rect width="1200" height="700" fill="#f1e7d8"/>
+  <rect x="0" y="0" width="1200" height="430" fill="#fbf6ef"/>
+
+  <!-- table -->
+  <ellipse cx="600" cy="560" rx="460" ry="80" fill="#7c5a35"/>
+  <ellipse cx="600" cy="540" rx="460" ry="75" fill="#a9805a"/>
+
+  <!-- plates + food -->
+  <g>
+    <circle cx="380" cy="530" r="32" fill="#fffaf3"/>
+    <circle cx="380" cy="530" r="14" fill="#a1531f"/>
+    <circle cx="530" cy="548" r="36" fill="#fffaf3"/>
+    <circle cx="530" cy="548" r="17" fill="#5b6e4f"/>
+    <circle cx="680" cy="548" r="36" fill="#fffaf3"/>
+    <circle cx="680" cy="548" r="17" fill="#b58a3d"/>
+    <circle cx="830" cy="530" r="32" fill="#fffaf3"/>
+    <circle cx="830" cy="530" r="14" fill="#8f4b21"/>
+  </g>
+
+  <!-- bottle centerpiece -->
+  <rect x="585" y="440" width="30" height="70" rx="6" fill="#e7ede1" stroke="#dcd0bc" stroke-width="2"/>
+  <rect x="580" y="425" width="40" height="16" rx="4" fill="#7c3f18"/>
+
+  <!-- people: multi-generational, seated around the table -->
+  <!-- grandparent, left -->
+  <g>
+    <rect x="228" y="400" width="80" height="130" rx="26" fill="#5b6e4f"/>
+    <circle cx="268" cy="380" r="34" fill="#e3b48c"/>
+    <path d="M238 366 q30 -26 60 0" fill="#d9d3c9"/>
+  </g>
+
+  <!-- parent, left-center -->
+  <g>
+    <rect x="368" y="380" width="82" height="150" rx="26" fill="#a1531f"/>
+    <circle cx="409" cy="358" r="36" fill="#c98a54"/>
+    <path d="M375 350 q34 -34 68 0 l0 14 -68 0 z" fill="#3f2a18"/>
+  </g>
+
+  <!-- child, center -->
+  <g>
+    <rect x="540" y="430" width="60" height="100" rx="22" fill="#b58a3d"/>
+    <circle cx="570" cy="412" r="26" fill="#f0c9a0"/>
+    <path d="M546 402 q24 -22 48 0" fill="#5c3a20"/>
+  </g>
+
+  <!-- parent, right-center -->
+  <g>
+    <rect x="668" y="380" width="82" height="150" rx="26" fill="#5b6e4f"/>
+    <circle cx="709" cy="358" r="36" fill="#8a5a3a"/>
+    <path d="M675 348 q34 -30 68 0" fill="#1e1712"/>
+  </g>
+
+  <!-- grandparent, right -->
+  <g>
+    <rect x="808" y="400" width="80" height="130" rx="26" fill="#7c3f18"/>
+    <circle cx="848" cy="380" r="34" fill="#e3b48c"/>
+    <path d="M818 368 q30 -24 60 0" fill="#cfcfcf"/>
+  </g>
+</svg>

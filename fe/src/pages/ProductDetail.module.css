@@ -1,0 +1,61 @@
+.page {
+  padding-block: var(--space-xl);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-lg);
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.bottle {
+  max-width: 220px;
+  margin: 0 auto;
+}
+
+.lifestyle {
+  border-radius: var(--radius-lg);
+  width: 100%;
+}
+
+.description {
+  color: var(--color-text-muted);
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+}
+
+.addToCart {
+  padding: 0.75rem 1.75rem;
+  border-radius: 999px;
+  border: 2px solid var(--color-border);
+  background: var(--color-bg-alt);
+  color: var(--color-text-muted);
+  font-weight: 600;
+  cursor: not-allowed;
+}
+
+.comingSoon {
+  color: var(--color-text-muted);
+  margin-top: var(--space-xs);
+}
+
+.ctaRow {
+  margin-top: var(--space-md);
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+}

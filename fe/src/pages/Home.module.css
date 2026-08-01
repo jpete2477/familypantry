@@ -1,0 +1,24 @@
+.section {
+  padding-block: var(--space-xl);
+}
+
+.sectionAlt {
+  padding: var(--space-xl) var(--container-padding);
+  background: var(--color-bg-alt);
+  border-radius: var(--radius-lg);
+  margin-inline: auto;
+  max-width: var(--max-width-content);
+}
+
+.ctaSection {
+  text-align: center;
+}
+
+.grid {
+  margin-block: var(--space-md);
+}
+
+.ctaRow {
+  text-align: center;
+  margin-top: var(--space-md);
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 420" role="img" aria-hidden="true">
+  <ellipse cx="150" cy="392" rx="90" ry="14" fill="#00000014"/>
+  <rect x="70" y="60" width="160" height="300" rx="14" fill="#e7ede1" stroke="#dcd0bc" stroke-width="3"/>
+  <rect x="60" y="20" width="180" height="55" rx="10" fill="#7c3f18"/>
+  <rect x="60" y="60" width="180" height="10" fill="#5e2f11"/>
+  <rect x="90" y="150" width="120" height="130" rx="6" fill="#fffaf3" stroke="#dcd0bc" stroke-width="2"/>
+  <circle cx="150" cy="182" r="14" fill="#b58a3d"/>
+  <text x="150" y="212" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#2e2a24" font-weight="bold">THE FAMILY</text>
+  <text x="150" y="232" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#2e2a24" font-weight="bold">PANTRY</text>
+  <text x="150" y="258" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" fill="#b58a3d" letter-spacing="1">KITCHEN ESSENTIAL</text>
+</svg>

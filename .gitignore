@@ -1,0 +1,20 @@
+.claude/
+
+# Environment
+.env
+.env.*
+!.env.sample
+
+# Frontend
+fe/node_modules/
+fe/dist/
+
+# Backend
+api/.venv/
+api/__pycache__/
+api/**/__pycache__/
+api/.pytest_cache/
+api/.ruff_cache/
+
+# OS
+.DS_Store

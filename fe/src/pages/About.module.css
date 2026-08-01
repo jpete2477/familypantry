@@ -1,0 +1,12 @@
+.page {
+  padding-block: var(--space-xl);
+  max-width: 42rem;
+}
+
+.section {
+  margin-bottom: var(--space-lg);
+}
+
+.ctaRow {
+  margin-top: var(--space-lg);
+}

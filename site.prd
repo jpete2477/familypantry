@@ -1,0 +1,178 @@
+**PRD: The Family Pantry – Marketing Website MVP**
+
+**Version:** 1.0  
+**Date:** August 1, 2026  
+**Status:** Ready for implementation  
+**Audience:** Coding agent (frontend focus)
+
+---
+
+### 1. Purpose & Goals
+
+Build a simple, warm, invitation-focused marketing website for **The Family Pantry** (premium family food brand, Est. 2026).
+
+**Core “Why” (must drive all messaging):**  
+People don’t buy what you do, they buy why you do it.  
+The Family Pantry exists so families can **Gather** together, **Prepare** something delicious, and **Share** it with those they love.  
+The products help people reach the vision of a table set with an amazing spread.
+
+**Site feel:** An open invitation to join the family — not a pure shopping cart.  
+**Primary goals of this MVP:**
+- Kick off the marketing campaign and start learning
+- Establish credibility with friends/family (consumers) and potential partners/suppliers
+- Capture interest via “Join the Family”
+
+**Success look:** Visitors feel welcomed, understand the why, see the emotional payoff (family at the table), and take the invitation to join.
+
+---
+
+### 2. Scope
+
+**In scope (MVP):**
+- Home / Landing page
+- Products listing page (4 product cards)
+- 4 individual Product Detail pages
+- About Us page
+- Contact page
+- Global header + footer
+- Prominent “Join the Family” CTA on every page (routes to Contact or Products as contextually appropriate)
+- Placeholder “Add to Cart” on product detail pages
+- Responsive design, ADA compliant, SEO-aware
+- Easy theming (CSS variables for colors/branding)
+
+**Out of scope:**
+- Real e-commerce / cart / checkout / payments
+- User accounts / login
+- Backend logic, database, or API implementation details (FastAPI + Postgres will come later)
+- Blog, secondary pages, or advanced features
+
+**Tech notes (frontend):**
+- React (modern best practices)
+- Fully responsive (mobile-first)
+- ADA compliant (semantic HTML, proper contrast, keyboard navigation, alt text, ARIA where needed)
+- Templated / easy to re-brand (use CSS custom properties for colors, fonts, etc.)
+- Monolith repo structure is fine
+- Backend (Python/FastAPI) is deferred — frontend can use static/placeholder data for now
+
+---
+
+### 3. Brand & Visual Direction
+
+- **Logo:** Use the provided circular logo (jars + herbs, “Established 2026”, “THE FAMILY PANTRY”, “GATHER • PREPARE • SHARE”).
+- **Colors:** Warm, inviting, fairly neutral palette. Implement via CSS variables so it can evolve easily.
+- **Overall aesthetic:** Warm, approachable, premium-but-homey. Think natural materials, soft lighting, real family moments.
+- **Product visuals:** Square glass bottles with natural wood lids. Labeling matches the logo/branding style.
+- **Lifestyle imagery:** Families gathered around a dinner table enjoying an amazing spread (multi-generational, warm, joyful, real food). Use high-quality placeholders (Unsplash-style or generated) for now.
+- **Tone of voice:** Warm, inclusive, inviting, never salesy. Always point back to the shared table experience.
+
+---
+
+### 4. Global Elements
+
+**Header:**
+- Logo (links to Home)
+- Navigation: Home, Products, About, Contact
+- Primary CTA button: “Join the Family” (contextually links to Contact or Products)
+
+**Footer (standard on every page):**
+- Logo or wordmark
+- Navigation links
+- Social media links (placeholders)
+- Address, phone, email (placeholders)
+- Copyright “© 2026 The Family Pantry”
+- Keep simple and clean
+
+**SEO:**
+- Unique `<title>` and meta description per page
+- Semantic headings
+- Descriptive alt text on all images
+- Clean URL structure
+
+**Accessibility:** ADA compliant (WCAG 2.1 AA target).
+
+---
+
+### 5. Page Specifications
+
+#### 5.1 Home / Landing
+- **Hero:** Large warm image of family at the dinner table with an amazing spread. Overlay or paired with logo + tagline “Gather • Prepare • Share” + short headline that sells the vision + primary CTA “Join the Family”.
+- Short “Why we exist” section (the credo).
+- Teaser of the four products (small cards or strip that links to Products page).
+- Invitation language that speaks to both friends/family and partners/suppliers.
+- Final CTA section.
+
+#### 5.2 Products (Listing)
+- Page title + short intro that ties products back to the shared-table vision.
+- Clean responsive grid of **4 product cards**.
+- Each card:
+  - Product image (square glass bottle, wood lid, matching label)
+  - Product name
+  - One-sentence benefit focused on the experience
+  - “Join the Family” or “View Product” link
+- Page-level CTA.
+
+**Products:**
+1. Family Taco Night
+2. Back Porch (Homestyle) Ranch
+3. Backyard Steak
+4. Kitchen Essential
+
+#### 5.3 Individual Product Detail Pages (×4)
+- Product image (square glass bottle with wood lid)
+- Supporting lifestyle image: family at the table using/enjoying that specific product
+- Product name
+- Short description (placeholder) focused on how it helps create the shared moment
+- Price (placeholder, e.g. “$12.99”)
+- Placeholder “Add to Cart” button (non-functional for MVP — can show a simple “Coming soon – Join the Family to be notified” message or link to Contact)
+- Secondary CTA “Join the Family”
+
+#### 5.4 About Us
+- Short intro paragraph focused on the **why** (Gather • Prepare • Share and the vision of the table).
+- Longer placeholder section about “the families involved” (can be filled with real stories later).
+- Note about Est. 2026 and building alongside partners and suppliers.
+- Warm invitation + CTA “Join the Family”.
+
+#### 5.5 Contact
+- Warm intro text that frames contacting as joining the family / starting the conversation.
+- Simple form:
+  - Name
+  - Email
+  - Optional dropdown or radio: “I’m interested in buying / partnering / supplying / just saying hello”
+  - Message textarea
+  - Submit button (“Join the Family” or “Send Message”)
+- Form is frontend-only for now (can console.log or show success message).
+- Contact details repeated from footer.
+
+---
+
+### 6. CTA Behavior Summary
+
+- Primary button text everywhere: **“Join the Family”**
+- Routing is contextual and appropriate:
+  - Header / general sections → Contact page
+  - Product listing or product-focused sections → Products page or specific product page
+- Goal is always invitation and interest capture, not a hard sell.
+
+---
+
+### 7. Content Placeholders
+
+All copy should be warm placeholder text that can be easily replaced.  
+Focus every piece of content on the emotional destination (the set table and shared moment) rather than product features alone.
+
+---
+
+### 8. Implementation Notes for Coding Agent
+
+- Start with a clean React project structure.
+- Use CSS variables for all brand colors, fonts, spacing so re-theming is trivial.
+- Make components reusable (Header, Footer, ProductCard, CTA button, etc.).
+- Images: use placeholder services or local placeholder assets with clear naming.
+- Ensure excellent mobile experience and keyboard/screen-reader accessibility.
+- Keep the codebase simple and well-commented for future backend integration.
+
+---
+
+This PRD is complete and ready for handoff.  
+
+Would you like any final tweaks before we consider it locked, or shall I also generate a simple suggested file/folder structure and component list to go with it?

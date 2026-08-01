@@ -1,0 +1,17 @@
+.page {
+  padding-block: var(--space-xl);
+}
+
+.intro {
+  max-width: 40rem;
+  margin-bottom: var(--space-lg);
+}
+
+.details {
+  margin-top: var(--space-xl);
+  color: var(--color-text-muted);
+}
+
+.details a {
+  color: inherit;
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-hidden="true">
+  <rect width="800" height="600" fill="#f1e7d8"/>
+  <ellipse cx="400" cy="470" rx="320" ry="70" fill="#a9805a"/>
+
+  <g>
+    <rect x="200" y="340" width="66" height="110" rx="20" fill="#5b6e4f"/>
+    <circle cx="233" cy="322" r="28" fill="#e3b48c"/>
+  </g>
+  <g>
+    <rect x="367" y="330" width="66" height="120" rx="20" fill="#a1531f"/>
+    <circle cx="400" cy="312" r="30" fill="#c98a54"/>
+  </g>
+  <g>
+    <rect x="534" y="340" width="66" height="110" rx="20" fill="#b58a3d"/>
+    <circle cx="567" cy="322" r="28" fill="#8a5a3a"/>
+  </g>
+
+  <!-- ranch bowl -->
+  <ellipse cx="400" cy="445" rx="42" ry="18" fill="#fffaf3" stroke="#dcd0bc" stroke-width="2"/>
+  <ellipse cx="400" cy="440" rx="34" ry="12" fill="#eef1e6"/>
+</svg>

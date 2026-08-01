@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-hidden="true">
+  <circle cx="120" cy="120" r="115" fill="#fbf6ef" stroke="#a1531f" stroke-width="4"/>
+  <circle cx="120" cy="120" r="97" fill="none" stroke="#7c3f18" stroke-width="1.5"/>
+
+  <rect x="80" y="112" width="28" height="42" rx="6" fill="#a1531f"/>
+  <rect x="86" y="104" width="16" height="10" rx="2" fill="#7c3f18"/>
+  <rect x="132" y="108" width="28" height="46" rx="6" fill="#5b6e4f"/>
+  <rect x="138" y="100" width="16" height="10" rx="2" fill="#3f4d37"/>
+
+  <path d="M92 106 Q86 88 96 76" stroke="#5b6e4f" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M148 102 Q154 84 144 70" stroke="#5b6e4f" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <path id="fp-top-curve" d="M35,120 a85,85 0 0,1 170,0" fill="none"/>
+  <text font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#2e2a24" letter-spacing="2">
+    <textPath href="#fp-top-curve" startOffset="50%" text-anchor="middle">THE FAMILY PANTRY</textPath>
+  </text>
+
+  <path id="fp-bottom-curve" d="M42,132 a80,80 0 0,0 156,0" fill="none"/>
+  <text font-family="system-ui, sans-serif" font-size="9" fill="#7c3f18" letter-spacing="1.5">
+    <textPath href="#fp-bottom-curve" startOffset="50%" text-anchor="middle">GATHER • PREPARE • SHARE</textPath>
+  </text>
+
+  <text x="120" y="202" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#665f54" letter-spacing="1">EST. 2026</text>
+</svg>
