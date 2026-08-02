@@ -11,7 +11,7 @@ export function Hero() {
         className={styles.image}
       />
       <div className={styles.overlay}>
-        <img src="/images/logo.svg" alt="" width="72" height="72" className={styles.logo} />
+        <img src="/images/logo.jpeg" alt="" width="72" height="72" className={styles.logo} />
         <p className={styles.tagline}>{SITE_TAGLINE}</p>
         <h1>There's always a place at our table.</h1>
         <p className={styles.subhead}>

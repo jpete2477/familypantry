@@ -25,6 +25,13 @@
   color: var(--color-text);
 }
 
+.logo {
+  border-radius: 50%;
+  object-fit: cover;
+  aspect-ratio: 1;
+  border: 1px solid var(--color-border);
+}
+
 .wordmark {
   font-family: var(--font-heading);
   font-weight: 700;
@@ -53,7 +60,7 @@
 
 .nav a:hover,
 .social a:hover {
-  color: var(--color-primary-dark);
+  color: var(--color-accent);
 }
 
 .contact {

@@ -1,15 +1,16 @@
 :root {
-  /* Brand colors — warm, neutral palette. Edit these to re-theme the site. */
-  --color-bg: #fbf6ef;
-  --color-bg-alt: #f1e7d8;
+  /* Brand colors — sampled from logo.jpeg and hero-family-kitchen.jpg:
+     warm whites, dark stained wood, muted sage. Edit these to re-theme. */
+  --color-bg: #f7f4ec;
+  --color-bg-alt: #ece7d9;
   --color-surface: #ffffff;
-  --color-text: #2e2a24;
-  --color-text-muted: #665f54;
-  --color-primary: #a1531f;
-  --color-primary-dark: #7c3f18;
-  --color-primary-contrast: #fffaf3;
-  --color-accent: #5b6e4f;
-  --color-border: #dcd0bc;
+  --color-text: #221d18;
+  --color-text-muted: #6b6459;
+  --color-primary: #2b231c;
+  --color-primary-dark: #17110d;
+  --color-primary-contrast: #f7f4ec;
+  --color-accent: #586151;
+  --color-border: #dcd3bf;
   --color-focus: #1d4ed8;
 
   /* Typography */
@@ -83,7 +84,7 @@ p {
 }
 
 a {
-  color: var(--color-primary-dark);
+  color: var(--color-accent);
 }
 
 img {

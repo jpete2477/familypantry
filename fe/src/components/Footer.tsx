@@ -21,7 +21,7 @@ export function Footer() {
       <div className={`container ${styles.inner}`}>
         <div className={styles.brand}>
           <Link to="/" className={styles.logoLink}>
-            <img src="/images/logo.svg" alt="" width="40" height="40" />
+            <img src="/images/logo.jpeg" alt="" width="40" height="40" className={styles.logo} />
             <span className={styles.wordmark}>{SITE_NAME}</span>
           </Link>
           <p className={styles.tagline}>{SITE_TAGLINE}</p>

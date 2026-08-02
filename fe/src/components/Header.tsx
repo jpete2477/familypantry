@@ -18,7 +18,7 @@ export function Header() {
     <header className={styles.header}>
       <div className={`container ${styles.inner}`}>
         <Link to="/" className={styles.logoLink} aria-label={`${SITE_NAME} — Home`}>
-          <img src="/images/logo.svg" alt="" width="44" height="44" />
+          <img src="/images/logo.jpeg" alt="" width="44" height="44" className={styles.logo} />
           <span className={styles.wordmark}>{SITE_NAME}</span>
         </Link>
 

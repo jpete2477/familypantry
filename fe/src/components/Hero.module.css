@@ -25,17 +25,21 @@
   max-width: 42rem;
   margin: var(--space-lg) auto;
   padding: var(--space-lg);
-  background: rgb(255 250 243 / 0.9);
+  background: rgb(247 244 236 / 0.92);
   border-radius: var(--radius-lg);
   text-align: center;
 }
 
 .logo {
   margin: 0 auto var(--space-sm);
+  border-radius: 50%;
+  object-fit: cover;
+  aspect-ratio: 1;
+  border: 1px solid var(--color-border);
 }
 
 .tagline {
-  color: var(--color-primary-dark);
+  color: var(--color-accent);
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
