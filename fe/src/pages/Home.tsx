@@ -17,18 +17,18 @@ export default function Home() {
       <Hero />
 
       <section className={`container ${styles.section}`}>
-        <h2>Why we exist</h2>
         <p>
-          People don't buy what you do, they buy why you do it. We believe the real product isn't
-          what's in the bottle — it's the table it brings you back to. The Family Pantry exists so
-          families can gather together, prepare something delicious, and share it with the people
-          they love.
+          Some nights it was just the two of us and a skillet. Other nights the table stretched
+          and the kitchen got loud in the best way. Over the years we collected the flavors and
+          shortcuts that made those moments easier — and better. This is that pantry, opened up.
         </p>
+        <CTAButton to="/contact" variant="secondary">
+          Come sit with us
+        </CTAButton>
       </section>
 
       <section className={`container ${styles.section}`}>
-        <h2>Meet the family</h2>
-        <p>Four blends made for the moments you gather around the table.</p>
+        <h2>A few of the things we reach for when the table is filling up.</h2>
         <div className={styles.grid}>
           <ProductGrid products={products} variant="compact" />
         </div>
@@ -40,10 +40,10 @@ export default function Home() {
       </section>
 
       <section className={`${styles.sectionAlt} ${styles.ctaSection}`}>
-        <h2>Built alongside our family — and yours</h2>
+        <h2>There's a place for you here.</h2>
         <p>
-          Whether you're joining us as a guest at the table, or as a future partner or supplier,
-          we're building The Family Pantry together — one gathering at a time.
+          We've always believed the best meals aren't about perfection. They're about who's in
+          the chairs.
         </p>
         <CTAButton to="/contact">Join the Family</CTAButton>
       </section>

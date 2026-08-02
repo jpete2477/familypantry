@@ -13,31 +13,33 @@ export default function About() {
       <h1>About Us</h1>
 
       <section className={styles.section}>
+        <p>Meals have always been the thing that brought our family together.</p>
         <p>
-          People don't buy what you do, they buy why you do it. The Family Pantry exists so
-          families can <strong>gather</strong> together, <strong>prepare</strong> something
-          delicious, and <strong>share</strong> it with the people they love. Everything we make
-          is in service of one vision: a table set with an amazing spread, and the people who
-          matter most sitting around it.
+          Sometimes it was an impromptu batch of homemade mac and cheese eaten on the run. Other
+          times it was a full table — smoked meats, sides, and desserts that somehow multiplied.
+        </p>
+        <p>
+          We cooked together. We figured out what we liked. We got better at the recipes. But the
+          recipes were never the point.
         </p>
       </section>
 
+      <p className={styles.pullQuote}>The point was always the same: We'll see you at the table.</p>
+
       <section className={styles.section}>
-        <h2>The families involved</h2>
         <p>
-          The Family Pantry was started by a family who believes the best part of any meal isn't
-          the recipe — it's who's sitting at the table when it's served. As we grow, this space
-          will fill with the real stories of the families, cooks, and home tables that make up our
-          community. For now, consider this an open invitation to be one of them.
+          As the family grew, so did the number of chairs. Assignments were made. Talents were
+          noticed and stretched. What started as one family's pantry quietly became something we
+          wanted to share.
         </p>
       </section>
 
+      <p className={styles.pullQuote}>Now there's a place set for you.</p>
+
       <section className={styles.section}>
-        <h2>Est. 2026</h2>
-        <p>
-          We're just getting started, and we're building this alongside our earliest customers,
-          partners, and suppliers — not after them. If you're a friend, a family, or a future
-          partner in this, we'd love for you to be part of it from day one.
+        <p className={styles.founded}>
+          Est. 2026 — we're just getting started, and we're building this alongside our earliest
+          partners and suppliers, not after them.
         </p>
       </section>
 
