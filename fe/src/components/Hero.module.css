@@ -13,6 +13,10 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* Biased down and toward center: the photo's top ~18% is bare ceiling
+     and roof beam, so a plain center crop wastes space there while
+     cutting off the food-laden table in the foreground. */
+  object-position: center 75%;
 }
 
 .overlay {

@@ -6,8 +6,8 @@ export function Hero() {
   return (
     <section className={styles.hero}>
       <img
-        src="/images/hero-family-table.svg"
-        alt="A multi-generational family gathered around a table full of food, laughing together"
+        src="/images/hero-family-kitchen.jpg"
+        alt="A family cooking together in a warm farmhouse kitchen, with a table set with a full spread of food in the foreground"
         className={styles.image}
       />
       <div className={styles.overlay}>
